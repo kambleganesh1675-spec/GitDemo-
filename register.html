@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Registration | ConnectHub</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="topbar"><a class="brand" href="index.html">ConnectHub</a><nav><a href="index.html">Home</a><a class="active" href="register.html">Registration</a><a href="login.html">Login</a><a href="feedback.html">Feedback</a></nav></header>
+<main class="form-wrap"><section class="form-card"><a class="back-link" href="index.html">← Back to home</a><span class="eyebrow">GET STARTED</span><h1>Create your account</h1><p class="muted">Fill in the details below to create a demo account.</p>
+<form id="registerForm">
+<label for="name">Full name</label><input id="name" name="name" type="text" placeholder="Your full name" required>
+<label for="email">Email address</label><input id="email" name="email" type="email" placeholder="you@example.com" required>
+<label for="password">Password</label><input id="password" name="password" type="password" minlength="6" placeholder="At least 6 characters" required>
+<label for="confirm">Confirm password</label><input id="confirm" name="confirm" type="password" minlength="6" placeholder="Type password again" required>
+<button class="btn primary full" type="submit">Register</button><p id="message" class="message" role="status"></p>
+</form><p class="form-bottom">Already registered? <a href="login.html">Login here</a></p><p class="form-bottom">Need help? <a href="forgot.html">Forgot password</a> · <a href="feedback.html">Feedback</a></p>
+</section></main><footer>Demo only — do not use a real password.</footer><script src="script.js"></script>
+</body></html>
